@@ -1,0 +1,314 @@
+[
+	{
+			"id": "1",
+			"display_text": "Height",
+			"question": "What is your height?",
+			"highPriority": true,
+			"input_type": "text",
+			"choices": [],
+			"user_response":{},
+			"important": true
+		},
+
+	{
+			"id": "2",
+			"display_text": "Body type",
+			"question": "How would you classify your body type?",
+			"highPriority": true,
+			"input_type":"image",
+			"choices": [
+			{
+				"img_id": "img201800072",
+				"img_url": "https://res.cloudinary.com/hanrjjkns/image/upload/shapes/Triangle.png",
+				"id": "Triangle"
+			},
+			{
+				"img_id": "img201800073",
+				"img_url": "https://res.cloudinary.com/hanrjjkns/image/upload/shapes/Rectangle.png",
+				"id": "Rectangle"
+			},
+			{
+				"img_id": "img201800074",
+				"img_url": "https://res.cloudinary.com/hanrjjkns/image/upload/shapes/InvertedTriangle.png",
+				"id": "Inverted Triangle"
+			},
+			{
+				"img_id": "img201800075",
+				"img_url": "https://res.cloudinary.com/hanrjjkns/image/upload/shapes/HourGlass.png",
+				"id": "Hour Glass"
+			},
+			{
+				"img_id": "img201800076",
+				"img_url": "https://res.cloudinary.com/hanrjjkns/image/upload/shapes/Oval.png",
+				"id": "Oval"
+			},
+			{
+				"img_id": "img201800077",
+				"img_url": "http://res.cloudinary.com/docmnrrn1/image/upload/v1526916956/Shapes/NA.png",
+				"id": "NA"
+			}
+
+			],
+			"user_response":{},
+			"property_name":[
+			{"image_type":"small"}
+			]
+	},
+	{
+			"id": "3",
+			"display_text": "Dress",
+			"allowMultiselect": true,
+			"question": "What size dress do you wear (XXS - XXL)?",
+			"highPriority": true,
+			"input_type":"choice_card",
+			"choices":[
+				{"text": "XXS (00)", "id": "xxs"},
+				{"text": "XS (0-2)", "id": "xs"},
+				{"text": "S (4-6)", "id": "s"},
+				{"text": "M (8-10)", "id": "m"},
+				{"text": "L (12-14)", "id": "l"},
+				{"text": "XL (16-18)", "id": "xl"},
+				{"text": "XXL (20)", "id": "xxl"},
+				{"text": "1X (14W-16W)", "id": "1x"},
+				{"text": "2X (18W-20W)", "id": "2x"},
+				{"text": "3X (22W- 24W)", "id": "3x"}
+			],
+			"user_response":{},
+			"property_name": [],
+			"choice_text":"Choose one or more",
+			"important": true
+		},
+	    {	"id": "4",
+			"display_text": "Shirt/blouse",
+			"allowMultiselect": true,
+			"question": "What size shirt/blouse do you wear (XXS - XXL)?",
+			"highPriority": true,
+			"input_type":"choice_card",
+			"choices":[
+			        {"text": "XXS (00)", "id": "xxs"},
+					{"text": "XS (0-2)", "id": "xs"},
+					{"text": "S (4-6)", "id": "s"},
+					{"text": "M (8-10)", "id": "m"},
+					{"text": "L (12-14)", "id": "l"},
+					{"text": "XL (16-18)", "id": "xl"},
+					{"text": "XXL (20)", "id": "xxl"},
+					{"text": "1X (14W-16W)", "id": "1x"},
+					{"text": "2X (18W-20W)", "id": "2x"},
+					{"text": "3X (22W- 24W)", "id": "3x"}
+			],
+			"user_response":{},
+			"property_name": [
+				{"choice_text":"Choose one or more"}
+			]
+		},
+	{
+			"id": "6",
+			"display_text": "Bra",
+			"question": "What size bra do you wear?",
+			"highPriority": true,
+			"input_type" :"drop-down",
+			"choices": [
+			        {
+				  "dd1": [
+					{
+					  "value": "30",
+					  "label": "30"
+					},
+					{
+					  "value": "32",
+					  "label": "32"
+					},
+					{
+					  "value": "34",
+					  "label": "34"
+					},
+					{
+					  "value": "36",
+					  "label": "36"
+					},
+					{
+					  "value": "38",
+					  "label": "38"
+					}
+				  ],
+				  "dd2": [
+					{
+					  "value": "AA",
+					  "label": "AA",
+					  "link": "30"
+					},
+					{
+					  "value": "A",
+					  "label": "A",
+					  "link": "30"
+					},
+					{
+					  "value": "B",
+					  "label": "B",
+					  "link": "30"
+					},
+					{
+					  "value": "C",
+					  "label": "C",
+					  "link": "30"
+					},
+					{
+					  "value": "D",
+					  "label": "D",
+					  "link": "30"
+					},
+					{
+					  "value": "DD",
+					  "label": "DD",
+					  "link": "30"
+					},
+					{
+					  "value": "AA",
+					  "label": "AA",
+					  "link": "32"
+					},
+					{
+					  "value": "A",
+					  "label": "A",
+					  "link": "32"
+					},
+					{
+					  "value": "B",
+					  "label": "B",
+					  "link": "32"
+					},
+					{
+					  "value": "C",
+					  "label": "C",
+					  "link": "32"
+					},
+					{
+					  "value": "D",
+					  "label": "D",
+					  "link": "32"
+					},
+					{
+					  "value": "DD",
+					  "label": "DD",
+					  "link": "32"
+					},
+					{
+					  "value": "AA",
+					  "label": "AA",
+					  "link": "34"
+					},
+					{
+					  "value": "A",
+					  "label": "A",
+					  "link": "34"
+					},
+					{
+					  "value": "B",
+					  "label": "B",
+					  "link": "34"
+					},
+					{
+					  "value": "C",
+					  "label": "C",
+					  "link": "34"
+					},
+					{
+					  "value": "D",
+					  "label": "D",
+					  "link": "34"
+					},
+					{
+					  "value": "DD",
+					  "label": "DD",
+					  "link": "34"
+					},
+					{
+					  "value": "AA",
+					  "label": "AA",
+					  "link": "36"
+					},
+					{
+					  "value": "A",
+					  "label": "A",
+					  "link": "36"
+					},
+					{
+					  "value": "B",
+					  "label": "B",
+					  "link": "36"
+					},
+					{
+					  "value": "C",
+					  "label": "C",
+					  "link": "36"
+					},
+					{
+					  "value": "D",
+					  "label": "D",
+					  "link": "36"
+					},
+					{
+					  "value": "DD",
+					  "label": "DD",
+					  "link": "36"
+					},
+					{
+					  "value": "AA",
+					  "label": "AA",
+					  "link": "38"
+					},
+					{
+					  "value": "A",
+					  "label": "A",
+					  "link": "38"
+					},
+					{
+					  "value": "B",
+					  "label": "B",
+					  "link": "38"
+					},
+					{
+					  "value": "C",
+					  "label": "C",
+					  "link": "38"
+					},
+					{
+					  "value": "D",
+					  "label": "D",
+					  "link": "38"
+					},
+					{
+					  "value": "DD",
+					  "label": "DD",
+					  "link": "38"
+					}
+				]
+				}
+				],
+				"user_response":{},
+			"property_name": []
+		},
+	
+{
+			"id": "23",
+			"display_text": "Jean Length",
+			"highPriority": true,
+			"question": "What is your preferred jean length?",
+			
+			"choices": [{
+					"text": "Ankle ",
+					"id": "ankle"
+				},
+				{
+					"text": "Regular",
+					"id": "regular"
+				},
+				{
+					"text": "Long",
+					"id": "long"
+				}
+			],
+                        "property_name":[],
+			"input_type":"choice_card"
+        }
+    ]
